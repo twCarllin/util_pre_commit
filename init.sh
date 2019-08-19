@@ -11,7 +11,7 @@ echo "pre-commit==1.16.1" >> requirements_dev.txt
 pip install pre-commit
 pre-commit install
 
-cp -a ./configs/. ./
+cp -a ./util_pre_commit/configs/. ./
 
 echo ".flake8" >> .gitignore
 echo ".pre-commit-config.yaml" >> .gitignore
